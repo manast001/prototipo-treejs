@@ -125,7 +125,7 @@ export class EngineService implements OnDestroy {
     */
 
     this.loader = new GLTFLoader().setPath(
-      'http://www.dominioagil.cl:8080/zapatilla_gltf/'
+        'https://www.dominioagil.cl/repo/zapatilla_gltf/'
     );
     this.loader.load('zapati.gltf', this.cargaGltf.bind(this));
   }
